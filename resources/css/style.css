@@ -41,6 +41,9 @@ header nav {
 /* main content container */
 .content {
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: column;
+  }
+
+.row {
+
 }
