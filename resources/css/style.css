@@ -1,0 +1,12 @@
+/* universal styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+div {
+  border: 1px solid white;
+}
