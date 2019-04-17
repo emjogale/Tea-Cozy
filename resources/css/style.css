@@ -10,3 +10,37 @@ body {
 div {
   border: 1px solid white;
 }
+
+a {
+  color: seashell;
+  padding: 10px;
+}
+
+/*universal styles main content */
+
+/* header */
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+/* main content container */
+.content {
+  display: flex;
+  flex-direction: row;
+  
+}
