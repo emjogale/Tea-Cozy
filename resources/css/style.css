@@ -22,12 +22,12 @@ a {
 
 
 .logo {
-  display: flex;
+  display:inline-flex;
   align-items: center;
   padding-left: 10px;
   padding-top: 9px;
   padding-bottom: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo img {
