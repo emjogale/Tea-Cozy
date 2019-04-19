@@ -1,10 +1,12 @@
 /* universal styles */
 body {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
+  text-align: center;
 }
 
 div {
@@ -16,26 +18,36 @@ a {
   padding: 10px;
 }
 
+h2 {
+  display: block;
+}
+
 /*universal styles main content */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 /* header */
 
 
-.logo {
-  display:inline-flex;
+.header {
   align-items: center;
   padding-left: 10px;
   padding-top: 9px;
   padding-bottom: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.logo img {
+.header img {
   height: 50px;
+  padding-left: 10px;
 }
 
 header nav {
   padding-right: 10px;
+  text-align: right;
 }
 
 /* main content container */
@@ -44,6 +56,22 @@ header nav {
   flex-direction: column;
   }
 
-.row {
+/* text content */
+.text-content {
+  background-color: black;
+}
+/*mission container */
+.mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+}
 
+.teas-of-the-month {
+  display: flex;
+  flex-direction: row;
+}
+
+/* copyright section*/
+.copyright {
+  text-align: left;
 }
