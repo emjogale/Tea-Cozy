@@ -64,6 +64,7 @@ header nav {
 .mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
+  flex-direction: column;
 }
 
 .teas-of-the-month {
