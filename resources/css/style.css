@@ -32,15 +32,20 @@ h2 {
 /* header */
 
 
-.header {
+header {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-left: 10px;
   padding-top: 9px;
   padding-bottom: 10px;
-  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  position:fixed;
+  background-color: black;
 }
 
-.header img {
+header img {
   height: 50px;
   padding-left: 10px;
 }
@@ -48,6 +53,10 @@ h2 {
 header nav {
   padding-right: 10px;
   text-align: right;
+}
+
+nav span {
+  display: inline-block;
 }
 
 /* main content container */
@@ -67,8 +76,26 @@ header nav {
   flex-direction: column;
 }
 
-.teas-of-the-month {
+.tea-of-the-month {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.teas img{
+  width: 300px;
+  height: 200px;
+}
+
+.teas span {
+  display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.locations .flex-container {
+  display:flex;
   flex-direction: row;
 }
 
