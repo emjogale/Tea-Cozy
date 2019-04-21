@@ -80,9 +80,9 @@ nav span {
   padding-top: 70px;
 }
 
-.mission .text-content {
+/*.mission .text-content {
   padding: 0px;
-}
+} */
 
 /* tea of the month section */
 
@@ -117,7 +117,7 @@ nav span {
   margin-top: 40px;
   }
 
-.locations .flex-container {
+.location .flex-container {
   justify-content: space-between;
   width: 1200px;
 }
