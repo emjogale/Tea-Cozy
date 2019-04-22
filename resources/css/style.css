@@ -36,7 +36,7 @@ header {
 
 header img {
   height: 50px;
-  padding-left: 10px;
+
 }
 
 header nav {
@@ -76,13 +76,7 @@ nav span {
   padding-top: 70px;
 }
 
-/* tea of the month section */
-#tea-of-the-month .flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
+/* tea of the month section*/
 .teas img{
   width: 300px;
   height: 200px;
@@ -106,8 +100,11 @@ nav span {
   justify-content: center;
   margin-top: 40px;
   }
-  
 
+#locations h2 {
+  margin-top: 30px;
+  padding-top: 30px;
+ }
 .location .flex-container {
   justify-content: space-between;
   width: 1200px;
@@ -115,9 +112,13 @@ nav span {
 
 .city {
   background-color: black;
-  margin: 5px 20px;
+  margin: 0px 20px 0px 20px;
   opacity: 1;
   flex-basis: 280px;
+}
+
+.city p {
+  padding: 5px;
 }
 
 /* contact section */
